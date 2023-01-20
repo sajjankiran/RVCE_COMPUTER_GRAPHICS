@@ -25,6 +25,7 @@ struct line_segment ls[10];
 
 outcode computeoutcode(double x, double y)
 {
+	printf("The new Sajjan");
 	outcode code = 0;
 	if (y > ymax)
 		code |= TOP;
